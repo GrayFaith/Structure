@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="JS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JS_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Structure/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Structure" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="groovy-3.0.0-alpha-3" />
+          <element id="library" level="application" name="Spring 4.3.18.RELEASE" />
+          <element id="library" level="application" name="Spring MVC 4.3.18.RELEASE" />
+          <element id="library" level="application" name="Spring Security 4.2.8.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
